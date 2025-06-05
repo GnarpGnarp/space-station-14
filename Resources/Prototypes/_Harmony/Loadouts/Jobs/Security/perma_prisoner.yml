@@ -1,3 +1,31 @@
+# Senior Time
+- type: loadoutEffectGroup
+  id: SeniorPrisoner
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobPermaPrisoner
+      time: 108000 # 30 hrs (~20 rounds)
+
+#Head
+- type: loadout
+  id: SeniorPrisonerBeret
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorPrisoner
+  equipment:
+    head: ClothingHeadHatBeretSeniorPrisoner
+
+#Neck
+- type: loadout
+  id: SeniorPrisonerMantle
+  equipment:
+    neck: ClothingNeckMantleSeniorPrisoner
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorPrisoner
+
 # Jumpsuit
 - type: loadout
   id: PermaPrisonerJumpsuit
@@ -5,6 +33,37 @@
     jumpsuit: ClothingUniformJumpsuitPrisoner
 
 - type: loadout
+  id: SeniorPrisonerJumpsuit
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorPrisoner
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSeniorPrisoner
+
+#Jumpkirt
+- type: loadout
   id: PermaPrisonerJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtPrisoner
+
+- type: loadout
+  id: SeniorPrisonerJumpskirt
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorPrisoner
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtSeniorPrisoner
+
+#ID
+- type: loadout
+  id: SeniorPrisonerPDA
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorPrisoner
+  equipment:
+    id: SeniorPrisonerPDA
+
+- type: loadout
+  id: PrisonerPDA
+  equipment:
+    id: PrisonerPDA

@@ -1,0 +1,30 @@
+{
+    "version": 1,
+    "license": "CC-BY-NC-SA-4.0",
+    "copyright": "Created by GhastlyGlimmer, based on detective sprites by CrimsonJupiter from commit https://github.com/ss14-harmony/ss14-harmony/commit/24430c24502090def9f6cd158379e6763b09a708",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "icon"
+        },
+        {
+            "name": "equipped-INNERCLOTHING",
+            "directions": 4
+        },
+        {
+            "name": "equipped-INNERCLOTHING-monkey",
+            "directions": 4
+        },
+        {
+            "name": "inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "inhand-right",
+            "directions": 4
+        }
+    ]
+}

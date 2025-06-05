@@ -2,9 +2,12 @@
 - type: roleLoadout
   id: JobPermaPrisoner
   groups:
+  - GroupTankHarness
+  - PermaPrisonerHead
+  - PermaPrisonerNeck
   - PermaPrisonerJumpsuit
   - CommonBackpack
-  - GroupTankHarness
+  - PermaPrisonerID
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool

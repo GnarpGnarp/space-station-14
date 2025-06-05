@@ -8,7 +8,7 @@
     sprite: _Harmony/Clothing/Head/Hats/hoswidebrimhat.rsi
   - type: Clothing
     sprite: _Harmony/Clothing/Head/Hats/hoswidebrimhat.rsi
-    
+
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFedoraBlueHarmony
@@ -45,7 +45,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretSecuritySeniorOfficerHarmony
   name: senior officer's beret
-  description: 
+  description:
   components:
   - type: Sprite
     sprite: _Harmony/Clothing/Head/Hats/beret_security_senior.rsi
@@ -163,6 +163,17 @@
     sprite: _Harmony/Clothing/Head/Hats/black_bow.rsi
   - type: Clothing
     sprite: _Harmony/Clothing/Head/Hats/black_bow.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretSeniorPrisoner
+  name: grizzled prisoner beret
+  description: A beret hand made to assert authority among the incarcerated.
+  components:
+  - type: Sprite
+    sprite: _Harmony/Clothing/Head/Hats/beret_senior_prisoner.rsi
+  - type: Clothing
+    sprite: _Harmony/Clothing/Head/Hats/beret_senior_prisoner.rsi
   - type: Tag
     tags:
     - ClothMade

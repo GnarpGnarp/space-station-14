@@ -74,3 +74,18 @@
     sprite: _Harmony/Clothing/Uniforms/Jumpskirt/senior_technician.rsi
   - type: Clothing
     sprite: _Harmony/Clothing/Uniforms/Jumpskirt/senior_technician.rsi
+
+- type: entity
+  parent: [ClothingUniformBase]
+  id: ClothingUniformJumpskirtSeniorPrisoner
+  name: grizzled prisoner jumpskirt
+  description: For the prisoners who have been here longer than the security on shift has.
+  components:
+  - type: Sprite
+    sprite: _Harmony/Clothing/Uniforms/Jumpskirt/senior_prisoner.rsi
+  - type: Clothing
+    sprite: _Harmony/Clothing/Uniforms/Jumpskirt/senior_prisoner.rsi
+  - type: SuitSensor
+    controlsLocked: true
+    randomMode: false
+    mode: SensorCords

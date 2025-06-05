@@ -13,3 +13,22 @@
        harmony-pda-prisoner
   - type: Icon
     state: harmony-pda-prisoner
+
+- type: entity
+  parent: BasePDA
+  id: SeniorPrisonerPDA
+  name: grizzled prisoner PDA
+  description: A PDA made only for the worst of the worst of the worst.
+  components:
+  - type: Pda
+    id: HarmonyPrisonerIDCard
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       harmony-pda-senior-prisoner
+  - type: PdaBorderColor
+    borderColor: "#f5840a"
+    accentVColor: "#ffffff"
+  - type: Icon
+    state: harmony-pda-senior-prisoner

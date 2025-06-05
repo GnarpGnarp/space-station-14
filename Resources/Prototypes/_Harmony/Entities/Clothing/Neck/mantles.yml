@@ -129,3 +129,14 @@
     sprite: _Harmony/Clothing/Neck/mantles/rainbowmantle.rsi
   - type: Clothing
     sprite: _Harmony/Clothing/Neck/mantles/rainbowmantle.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMantleSeniorPrisoner
+  name: grizzled prisoner mantle
+  description: A hand made mantle to honor a long lost physician.
+  components:
+  - type: Sprite
+    sprite: _Harmony/Clothing/Neck/Mantles/seniorprisonermantle.rsi
+  - type: Clothing
+    sprite: _Harmony/Clothing/Neck/Mantles/seniorprisonermantle.rsi

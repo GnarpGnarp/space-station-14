@@ -8,11 +8,35 @@
 
 # Security
 - type: loadoutGroup
+  id: PermaPrisonerHead
+  name: loadout-group-perma-prisoner-head
+  minLimit: 0
+  loadouts:
+  - SeniorPrisonerBeret
+
+- type: loadoutGroup
   id: PermaPrisonerJumpsuit
   name: loadout-group-perma-prisoner-jumpsuit
   loadouts:
   - PermaPrisonerJumpsuit
   - PermaPrisonerJumpskirt
+  - SeniorPrisonerJumpsuit
+  - SeniorPrisonerJumpskirt
+
+- type: loadoutGroup
+  id: PermaPrisonerNeck
+  name: loadout-group-perma-prisoner-neck
+  minLimit: 0
+  loadouts:
+  - SeniorPrisonerMantle
+
+- type: loadoutGroup
+  id: PermaPrisonerID
+  name: loadout-group-perma-prisoner-id
+  loadouts:
+  - PrisonerPDA
+  - SeniorPrisonerPDA
+
 
 # Medical
 - type: loadoutGroup

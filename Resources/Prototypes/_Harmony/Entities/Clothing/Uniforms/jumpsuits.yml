@@ -140,3 +140,18 @@
     sprite: _Harmony/Clothing/Uniforms/Jumpsuit/syndie_business.rsi
   - type: Clothing
     sprite: _Harmony/Clothing/Uniforms/Jumpsuit/syndie_business.rsi
+
+- type: entity
+  parent: [ClothingUniformBase]
+  id: ClothingUniformJumpsuitSeniorPrisoner
+  name: grizzled prisoner jumpsuit
+  description: For the prisoners who have been here longer than the security on shift has.
+  components:
+  - type: Sprite
+    sprite: _Harmony/Clothing/Uniforms/Jumpsuit/senior_prisoner.rsi
+  - type: Clothing
+    sprite: _Harmony/Clothing/Uniforms/Jumpsuit/senior_prisoner.rsi
+  - type: SuitSensor
+    controlsLocked: true
+    randomMode: false
+    mode: SensorCords

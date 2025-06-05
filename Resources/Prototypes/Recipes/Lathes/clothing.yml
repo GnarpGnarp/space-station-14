@@ -487,6 +487,16 @@
   id: ClothingUniformJumpskirtPrisoner
   result: ClothingUniformJumpskirtPrisoner
 
+- type: latheRecipe
+  parent: BaseJumpsuitRecipe
+  id: ClothingUniformJumpsuitSeniorPrisoner
+  result: ClothingUniformJumpsuitSeniorPrisoner
+
+- type: latheRecipe
+  parent: BaseJumpsuitRecipe
+  id: ClothingUniformJumpskirtSeniorPrisoner
+  result: ClothingUniformJumpskirtSeniorPrisoner
+
 ## QM
 
 - type: latheRecipe

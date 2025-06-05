@@ -142,7 +142,8 @@
   - ClothingUniformJumpskirtHeadOfSecurityTurtleneckHarmony # Harmony
   - ClothingUniformJumpsuitSecBlueHarmony # Harmony
   - ClothingUniformJumpsuitWardenBlueHarmony # Harmony
-
+  - ClothingUniformJumpsuitSeniorPrisoner # Harmony
+  - ClothingUniformJumpskirtSeniorPrisoner # Harmony
 
 - type: latheRecipePack
   id: ClothingService
